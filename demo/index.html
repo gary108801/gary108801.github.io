@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>辨識昆蟲</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- 引入我們自己寫的 CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+
+    <body class="vn-highlighter-context">
+        <!--旁邊那條bar-->
+        <nav id="sidebar-wrapper"></nav>
+
+        <!-- Header -->
+        <header id="top" class="header">
+            <div class="text-vertical-center">
+                <h1>關於昆蟲</h1>
+                <h3>昆蟲屬於昆蟲綱，是世界上最繁盛的動物，已發現26目、超過100萬種。此網站列出台灣常見的幾個大目，可粗略的藉由玩遊戲的方式認識昆蟲的分類^^</h3>
+
+            </div>
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>辨識昆蟲</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="deal" type="button" class="btn btn-primary">隨機發卡</button>
+            </div>
+        </div>
+
+
+
+        <div class="row" id="data">
+            <div class="col-2 text-center">
+                <img src="./poker/back.png">
+            </div>
+            <div class="col-2 text-center">
+                <img src="./poker/back.png">
+            </div>
+            <div class="col-2 text-center">
+                <img src="./poker/back.png">
+            </div>
+            <div class="col-2 text-center">
+                <img src="./poker/back.png">
+            </div>
+            <div class="col-2 text-center">
+                <img src="./poker/back.png">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button id="test" type="button" class="btn btn-primary">判斷牌型</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col">
+                <label for="example-number-input" class="col-form-label">看結果</label>
+                <input class="form-control" type="text" id="result">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- 引入我們自己寫的 JavaScript -->
+    <script src="./js/index.js"></script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong><i class="fa fa-pencil fa-fw"></i>期末專題 Demo </strong>
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li>B04612009黃俊軒</li>
+                        <li>網頁互動程式設計課程</li>
+                        <li>圖片來源：嘎嘎昆蟲網</li>
+                    </ul>
+
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://github.com/CeliaxD"><i class="fa fa-github fa-fw fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/celia722"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/haha722/"><i class="fa fa-instagram fa-fw fa-2x"></i></a>
+                        </li>
+
+                    </ul>
+                    <hr class="small">
+
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg" style="display: none; position: fixed;"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+</body>
+
+</html>
